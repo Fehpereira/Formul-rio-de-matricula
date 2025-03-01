@@ -9,64 +9,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário de matrícula</title>
   <link rel="stylesheet" href="styles/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
 </head>
 <body>
-  <header>
-    <span>
-      <a href="#">
-        <img src="" alt="">
-      </a>
-      <p>
-        Voltar
-      </p>
-    </span>
-    <div>
-      <h1>
-        Formulário de matrícula
-      </h1>
-      <p>
-        Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
-      </p>
-    </div>
-  </header>
+  <div class="container">
+    <header>
+      <span>
+        <a href="#">
+          <img src="" alt="">
+        </a>
+        <p>
+          Voltar
+        </p>
+      </span>
+      <div>
+        <h1>
+          Formulário de matrícula
+        </h1>
+        <p>
+          Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
+        </p>
+      </div>
+    </header>
 
-  <section>
-    <h2>
-      Informações da criança
-    </h2>
+    <section>
+      <h2>
+        Informações da criança
+      </h2>
 
-    <form action="">
+      <form action="">
 
-      <label for="nome">Nome completo</label>
-      <input type="text" name="info" id="nome" autofocus required>
-      <br><br>
-      
-      
+        <div class="flex column gap-4">
+          <label for="nome">Nome completo</label>
+          <input type="text" name="info" id="nome" class="input-max-width" autofocus required>
+        </div>
+        
+        <div class="flex column gap-4">
+          <label for="nascimento"> Data de nascimento</label>
+          <input type="date" name="info" id="nascimento" class="input-max-width" required>
+        </div>
 
-      <label for="nascimento"> Data de nascimento</label>
-      <input type="date" name="info" id="nascimento" required>
-      
-      <br><br>
-      <label for="sexo">Sexo</label>
-        <select name="info" id="sexo" required>
-          <option value="Masculino">Masculino</option>
-          <option value="Feminino">Feminino</option>
-        </select>
-      <br><br>
+        <div class="flex column gap-4">
+          <label for="sexo">Sexo</label>
+            <select name="info" id="sexo" class="input-max-width" required >
+              <option value="Masculino">Masculino</option>
+              <option value="Feminino">Feminino</option>
+            </select>
+        </div>
 
-      <label for="saude">Informações médicas</label>
-      <textarea name="info" id="saude"></textarea> 
+        <div class="flex column gap-4" >
+          <label for="saude">Informações médicas</label>
+          <textarea name="info" id="saude" class="input-max-width" rows="4"></textarea> 
+        </div>
 
-      <br><br>
-      
-      <label for="nascimento">Certidão de nascimento</label>
-      <input type="file" id="nascimento">
-      
+        <div class="flex column gap-4">
+          <label for="certidao">Certidão de nascimento</label>
+          <input name="info" type="file" id="certidao">
+        </div>
+        
 
-    </form>
-  </section>
-
+      </form>
+    </section>
+  </div>
 </body>
 </html>

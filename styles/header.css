@@ -1,0 +1,24 @@
+header {
+  max-width:528px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  h1{
+    font: var(--h2);
+  }
+  
+  p{
+    font: var(--h4);
+    line-height: 150%;
+    font-weight: 100;
+    color: var(--text-secondary);
+
+  }
+}
