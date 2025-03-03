@@ -46,7 +46,7 @@
         </div>
         
         <div class="flex column gap-4">
-          <label for="nascimento"> Data de nascimento</label>
+          <label for="nascimento">Data de nascimento</label>
           <input type="date" name="info" id="nascimento" class="input-max-width" required>
         </div>
 
@@ -71,6 +71,95 @@
 
       </form>
     </section>
+
+    <section>
+
+      <h2>Endereço residencial</h2>
+
+      <form action="">
+
+        <div class="flex column gap-4">
+          <label for="cep">CEP</label>
+          <input type="text" name="info" id="cep" class="input-max-width" required>
+        </div>
+
+        <div class="flex gap-20">
+          <span  class="flex column gap-4">
+            <label for="rua" class="disabled">Rua</label>
+            <input type="text" name="info" id="rua" class="input-70-width bg-disabled" disabled>
+          </span>
+          <span  class="flex column gap-4 width-50">
+            <label for="numero">Número</label>
+            <input type="number" name="info" id="numero" class="input-max-width">
+          </span>
+        </div>
+
+        <div class="flex gap-20">
+          <span class="flex column gap-4">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="info" id="cidade" class="input-70-width bg-disabled" disabled>
+          </span>
+
+          <span class="flex column gap-4 width-50">
+            <label for="estado">Estado</label>
+            <input type="text" name="info" id="estado" class="input-max-width" >
+          </span>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+      <h2>
+        Informações do responsável
+      </h2>
+
+      <form action="">
+
+        <div class="flex column gap-4">
+          <label for="nome-responsavel">Nome do responsável</label>
+          <input type="text" name="info" id="nome-responsavel" class="input-max-width" required>
+        </div>
+        
+        <div class="flex column gap-4">
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="info" id="telefone" class="input-max-width" required>
+        </div>
+
+        <div class="flex column gap-4">
+          <label for="mail">E-mail</label>
+          <input type="email" name="info" id="mail" class="input-max-width" required>
+        </div>
+
+      </form>
+    </section>
+
+    <section>
+
+      <form action="">
+        <div>
+          <input type="checkbox" name="info" id="termos">
+          <label for="termos" id="ltermos">
+            Declaro que li e concordo com os <strong>Termos e Condições</strong> e com a <strong>Política de Privacidade</strong> da escola Estrela do Amanhã.
+          </label>
+        </div>
+      </form>
+
+    </section>
+
+    <section>
+
+      <form action="">
+
+          <div class="flex width-100">
+            <input type="button" name="info" value="Salvar respostas">
+            <input type="button" name="info" value="Fazer matrícula">
+          </div>
+
+        </form>
+
+    </section>
+
   </div>
 </body>
 </html>

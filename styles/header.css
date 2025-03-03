@@ -11,14 +11,15 @@ header {
   }
 
   h1{
-    font: var(--h2);
+    font: 600 24px var(--font-family);
+    line-height: 125%;
+    color: var(--text-primary);
   }
   
   p{
-    font: var(--h4);
-    line-height: 150%;
-    font-weight: 100;
+    font: 16px var(--font-family);
     color: var(--text-secondary);
+    line-height: 125%;
 
   }
 }

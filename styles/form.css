@@ -1,15 +1,5 @@
 section {
   max-width: 528px;
-  
-  h2{
-    font-size: var(--h4);
-    color: var(--text-primary);
-    font-weight: 500;
-  }
-  p {
-    font: var(--h4);
-
-  }
 }
 
 form {
@@ -31,4 +21,41 @@ form {
       visibility: hidden;
       color: transparent;
     }
+  
+  span {
+    width: 100%;
   }
+  
+  #ltermos {
+    font: 16px var(--font-family);
+    line-height: 150%;
+    color: var(--text-secondary);
+    font-weight:400;
+
+    strong{
+      color: var(--brand-dark);
+      font-style: none;
+    }
+  }
+
+}
+
+input[type=button]:nth-child(1){
+  padding: 12px 24px;
+  border: 1px solid var(--text-highlight);
+  color: var(--text-highlight);
+  background-color: white;
+  border-radius: 8px;
+  font: 600 16px var(--font-family);
+  line-height: 150%;
+}
+
+input[type=button]:nth-child(2){
+  padding: 12px 24px;
+  border: 1px solid var(--text-highlight);
+  color: white;
+  background-color:var(--text-highlight);
+  border-radius: 8px;
+  font: 600 16px var(--font-family);
+  line-height: 150%;
+}
