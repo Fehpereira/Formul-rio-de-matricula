@@ -17,7 +17,6 @@ form {
 
   }
     input[type=file]::file-selector-button{
-      width: 100%;
       visibility: hidden;
       color: transparent;
     }
