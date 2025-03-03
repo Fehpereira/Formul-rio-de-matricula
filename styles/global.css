@@ -107,9 +107,21 @@ label {
   gap: 20px;
 }
 
+.gap-8 {
+  gap:8px;
+}
+
 h2{
   font: 600 16px var(--font-family);
   color: var(--text-primary);
   line-height: 125%;
+}
 
+a {
+  text-decoration: none;
+  align-items: center;
+}
+
+input[type=button]{
+  cursor: pointer;
 }
