@@ -107,6 +107,10 @@ label {
   gap: 20px;
 }
 
+.gap-24 {
+  gap: 24px;
+}
+
 .gap-8 {
   gap:8px;
 }

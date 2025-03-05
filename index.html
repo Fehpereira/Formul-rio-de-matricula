@@ -17,7 +17,7 @@
     <header>
       <span>
         <a href="#" class="flex gap-8">
-          <img src="./assets/arrow-left-02.svg" alt="Ícone de seta para esquerda">
+          <img src="./assets/icons/arrow-left-02.svg" alt="Ícone de seta para esquerda">
           <p>
             Voltar
           </p>
@@ -33,7 +33,7 @@
       </div>
     </header>
 
-    <section>
+    <fieldset>
       <h2>
         Informações da criança
       </h2>
@@ -70,9 +70,9 @@
         
 
       </form>
-    </section>
+    </fieldset>
 
-    <section>
+    <fieldset>
 
       <h2>Endereço residencial</h2>
 
@@ -107,9 +107,9 @@
         </div>
 
       </form>
-    </section>
+    </fieldset>
 
-    <section>
+    <fieldset>
       <h2>
         Informações do responsável
       </h2>
@@ -132,9 +132,100 @@
         </div>
 
       </form>
-    </section>
+    </fieldset>
 
-    <section>
+    
+    <fieldset  class="flex column gap-24">
+      <h2>Opções de matrícula</h2>
+
+      <div class="radio-wrapper">
+        <label> Selecione o turno de estudo </label>
+        
+        <div class="radio-grid">
+          <div>
+            <input type="radio" name="shift" id="morning">
+            <div class="radio-img"></div>
+            <img src="assets/icons/sun-cloud-02.svg" alt="Ícone de Sol com nuvem">
+            <label for="morning" class="label-radio">
+              Manhã
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="shift" id="afternoon">
+            <div class="radio-img"></div>
+            <img src="assets/icons/sun-02.svg" alt="Ícone de Sol">
+            <label for="afternoon" class="label-radio">
+              Tarde
+            </label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="radio-wrapper margin-top">
+        <label> Em qual esporte você gostaria de inscrever seu filho? </label>
+        
+        <div class="radio-grid">
+          <div>
+            <input type="radio" name="sport" id="soccer">
+            <div class="radio-img"></div>
+            <img src="assets/icons/sun-cloud-02.svg" alt="Ícone de futebol">
+            <label for="morning" class="label-radio">
+              Futebol
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="sport" id="basketball">
+            <div class="radio-img"></div>
+            <img src="assets/icons/basketball-02.svg" alt="Ícone de basquete">
+            <label for="basketball" class="label-radio">
+              Basquete
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="sport" id="swimming">
+            <div class="radio-img"></div>
+            <img src="assets/icons/swimming.svg" alt="Ícone de Natação">
+            <label for="swimming" class="label-radio">
+              Natação
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="sport" id="yoga">
+            <div class="radio-img"></div>
+            <img src="assets/icons/yoga-02.svg" alt="Ícone de Yoga">
+            <label for="yoga" class="label-radio">
+              Yoga
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="sport" id="volley">
+            <div class="radio-img"></div>
+            <img src="assets/icons/volleyball.svg" alt="Ícone de Volley">
+            <label for="volley" class="label-radio">
+             Volley
+            </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="sport" id="boxing">
+            <div class="radio-img"></div>
+            <img src="assets/icons/boxing-glove-01.svg" alt="Ícone de Boxing">
+            <label for="boxing" class="label-radio">
+              Boxing
+            </label>
+          </div>
+          
+        </div>
+      </div>
+      
+    </fieldset>
+    
+    <fieldset>
 
       <form action="">
         <div>
@@ -145,20 +236,20 @@
         </div>
       </form>
 
-    </section>
-
-    <section>
-
+    </fieldset>
+    
+    <fieldset>
+      
       <form action="">
-
-          <div class="flex width-100">
-            <input type="button" name="info" value="Salvar respostas">
-            <input type="button" name="info" value="Fazer matrícula">
+        
+        <div class="flex width-100">
+            <button type="button" value="Salvar respostas"> Salvar respostas </button>
+            <button name="info" value="Fazer matrícula">Fazer matrícula</button>
           </div>
 
         </form>
 
-    </section>
+    </fieldset>
 
   </div>
 </body>
