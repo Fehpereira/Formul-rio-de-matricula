@@ -33,9 +33,10 @@
     
     .radio-img {
       background-image: url(../assets/icons/radio-default.svg);
+      object-fit: cover;
       position: absolute;
-      width: 1.35rem;
-      height: 1.35rem;
+      width: 1.38rem;
+      height: 1.38rem;
       left: 3%;
       top: -3%;
       z-index: 0;
@@ -53,8 +54,8 @@
       &:checked {
         background-image: url(../assets/icons/radio-checked.svg);
         position: absolute;
-        width: 1.35rem;
-        height: 1.35rem;
+        width: 1.38rem;
+        height: 1.38rem;
         left: 3%;
         top: -3%;
         z-index: 1;
